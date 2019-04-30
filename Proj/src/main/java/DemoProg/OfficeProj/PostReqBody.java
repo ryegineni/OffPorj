@@ -22,6 +22,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class PostReqBody {
 
 	public static void main(String[] args) throws JsonGenerationException, JsonMappingException, IOException, JSONException {
+		System.out.print("Added print statement");
+
 		HashMap<String,String> headerMap=new HashMap<String,String>();
 		headerMap.put("Content-Type", "application/json");
 		
