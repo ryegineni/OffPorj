@@ -20,6 +20,7 @@ import javax.mail.internet.MimeMultipart;
 public class EmailSendDemo {
 
 	public static void main(String[] args) {
+		//Change second time
 		String to = "ryegineni@gmail.com";
 		// Sender's email ID needs to be mentioned
 		String from = "raviapi9@gmail.com";
