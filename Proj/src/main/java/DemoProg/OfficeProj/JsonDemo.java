@@ -7,6 +7,7 @@ import org.json.JSONObject;
 public class JsonDemo {
 
 	public static void main(String[] args) throws JSONException {
+		System.out.println("Added print statement");
 		JSONObject obj = new JSONObject();
 		JSONObject callLogEntry = new JSONObject();
 
